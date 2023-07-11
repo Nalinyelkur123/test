@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,15 +8,26 @@
 </head>
 
 <body>
-    <main>
-        <img src="https://picsum.photos/id/1/1000/500" class="slide" alt="1">
-        <img src="https://picsum.photos/id/22/1000/500" class="slide" alt="2">
-        <img src="https://picsum.photos/id/43/1000/500" class="slide" alt="3">
-        <img src="https://picsum.photos/id/44/1000/500" class="slide" alt="4">
-    </main>
-    <div class="nav">
-        <button onclick="goPrev()">Prev</button>
-        <button onclick="goNext()">Next</button>
+
+    <div class="container">
+
+        <div class="navbar">
+            <button onclick="goPrev()" style="width: 30px; height: 30px;">
+                < </button>
+
+                    <main>
+
+                        <img src="https://picsum.photos/id/1/1000/500" class="slide" alt="1">
+                        <img src="https://picsum.photos/id/22/1000/500" class="slide" alt="2">
+                        <img src="https://picsum.photos/id/43/1000/500" class="slide" alt="3">
+                        <img src="https://picsum.photos/id/44/1000/500" class="slide" alt="4">
+
+                    </main>
+                    <div class="navba">
+
+                        <button onclick="goNext()" style="width: 30px; height: 30px;"> > </button>
+                    </div>
+        </div>
     </div>
 
     <script src="./slider.js"></script>

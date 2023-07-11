@@ -17,11 +17,17 @@ main{
     height: 100%;
     position: absolute;
 }
-.nav{
-    text-align: center;
-    margin-top: 15px;
+
+.navbar{
+
+    margin-left: 150px;
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: center;
+    align-items: center;
+
 }
-.nav button{
-    font-size:25px;
-    padding:5px;
+.navba{
+    margin-right: 150px;
 }
+
